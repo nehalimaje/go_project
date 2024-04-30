@@ -94,5 +94,3 @@ func main() {
 	fmt.Println("Starting server at port 8080")
 	log.Fatal(http.ListenAndServe(":8080", r))
 }
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
