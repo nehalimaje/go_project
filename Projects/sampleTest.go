@@ -24,8 +24,8 @@ type Employee struct {
 
 // Department struct represents the department data model
 type Department struct {
-	ID   string json:"id,omitempty" bson:"_id,omitempty"
-	Name string json:"name,omitempty" bson:"name,omitempty"
+	ID   `string json:"id,omitempty" bson:"_id,omitempty"`
+	Name `string json:"name,omitempty" bson:"name,omitempty"`
 }
 
 var client *mongo.Client
