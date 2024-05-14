@@ -22,6 +22,7 @@ const collName = "watchlist"
 var collection *mongo.Collection
 
 func init() {
+
 	//client option
 	clientOption := options.Client().ApplyURI(connectionString)
 
